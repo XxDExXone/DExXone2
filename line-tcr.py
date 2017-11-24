@@ -15,7 +15,7 @@ print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage =""" Chivas Bot
+helpMessage =""" DExXone Bot
 [Id︎]
 [Mid]
 [Me︎]
@@ -38,28 +38,28 @@ helpMessage =""" Chivas Bot
 
 [*] Command in the groups [*]
 
-[Curl]
-[Ourl]
+[Curl]Untuk membuka tautan grup
+[Ourl]untuk menutup tautan grup
 [url]
 [url:「Group ID」]
 [Invite：「mid」]
 [Kick：「mid」]
-[Ginfo]
+[Ginfo] info grup
 [jointicket]
 [Cancel]
-[Gn 「group name」]
-[Nk 「name」]
+[Gn 「group name」]untuk mengganti nama grup
+[Nk 「name」]untuk kick anggota grup
 
 [*] Command kicker only [*]
 
-[Bye]
-[Kill ban]
+[/Bye]untuk mengeluarkan bot
+[Kill ban]untuk mengeluarkan anggota yg sudah di ban
 [Kill 「@」]
-[Ban 「@」] By Tag
-[Unban 「@」] By Tag
+[Ban 「@」] untuk menambahkan anggota yg akan di ban
+[Unban 「@」] untuk membatalkan anggota yg di ban
 [Ban︎] Share Contact
 [Unban︎] Share Contact
-[Banlist︎]
+[Banlist︎]untuk melihat anggota yang sudah di ban
 [Cek ban]
 [Cv mid]
 [Cv ︎invite:「mid」]
@@ -92,7 +92,7 @@ wait = {
     "wblack":False,
     "dblack":False,
     "clock":True,
-    "cName":"Chivas ",
+    "cName":"DExXone ",
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":False,
