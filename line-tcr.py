@@ -1410,7 +1410,7 @@ def bot(op):
                         G.preventJoinByTicket = True
                         kc.updateGroup(G)
 #-----------------------------------------------
-            elif msg.text in ["Bye all"]:
+            elif msg.text in ["/Bye"]:
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
                     try:
